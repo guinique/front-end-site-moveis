@@ -66,8 +66,16 @@ export default {
       align-items: center;
       justify-content: space-evenly;
       font-family: 'Kanit', sans-serif;
-      font-weight: 200;
+      font-weight: 400;
       font-size: 20px;
+    }
+
+    #menus > .navs{
+      border-bottom:2px solid rgb(201, 185, 165);
+    }
+    #menus > .navs:hover{
+      padding: 10px;
+      transition-duration: 0.3s;
     }
     /* #menus>span{
       padding-bottom: 10px;
@@ -81,6 +89,7 @@ export default {
     }
     .navs{
       cursor: pointer;
+      padding: 5px;
     }
     .navs:hover{
       color:white;

@@ -19,7 +19,6 @@ export default new Router({
         },
         {
             path:"/TelaPrincipal",
-            name:"TelaPrincipal",
             component:TelaPrincipal,
             children:[
                 {
